@@ -1,0 +1,73 @@
+body {
+	background-color: #d8d8d8;
+	color: #123456;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+ul {
+	position: fixed;
+	margin-top: 0;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #647c72;
+}
+
+li {
+	float: left;
+}
+ 
+li {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.rsvp-text {
+	color: blue;
+}
+
+input[type="text"], select, textarea {
+	width: 50%;
+	padding: 4px;
+	border: 1px solid #ccc;
+	border-radius: 12px;
+	box-sizing: border-box;
+	margin-top: 2px;
+	margin-bottom: 12px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #000;
+	color: white;
+	padding: 12px 20px;
+	border-radius: 0.5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #008080;
+}
+
+
+
+
+
+
+
+	
+
+	
+
+	
+	
+
+
+

@@ -3,16 +3,17 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Gallery of Many Things</title>
+		<link rel="stylesheet" href="./css/1pagestyling.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href ="#home" id="link"><li>HOME</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href ="#home"><li>HOME</li></a>
 					<a href ="#gallery"><li>GALLERIES</li></a>
-					<a href ="#accountcreate"><li>ACCOUNT REQUEST</li></a>
+					<a href ="#Contact"><li>ACCOUNT REQUEST</li></a>
 				</ul>
 			</div>
 		</div>
@@ -20,9 +21,13 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<div>
-					<span>PICTORAMA</span>
+			<div class="container">
+				<div class="text-center">
+				<br>
+				<br>
+				<br>
+				<br>
+					<span class="head-main"><strong>PICTORAMA</strong></span>
 					<blockquote cite="https://www.brainyquote.com/authors/berenice_abbott">
 					<em>Photography helps people to see -Berenice Abbott</em>
 					</blockquote>
@@ -40,16 +45,16 @@
 		
 		
 		<!-- GALLERIES -->
-		<section>
-			<div id="#gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Galleries</h1>
-				<div>
+				<div class="row">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/milkyway_tn.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>SPACE</h3>
 							<p>The highest quality space pictures</p>
 							</div>
@@ -58,10 +63,10 @@
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/baseball_tn.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>SPORTS</h3>
 								<p>The best sports images</p>
 							</div>
@@ -70,22 +75,22 @@
 					<!-- END PHOTO-CONTAINER 2 -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/elephant_tn.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>WILDLIFE</h3>
-								<p>The most natural animals pics</p>
+								<p>The most natural animal photos</p>
 							</div>
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/desktopplant_tn.jpg" alt="">
-							<div>
+							<div class="photo-overlay">
 								<h3>PLANTS</h3>
 								<p>The most crisp plant images</p>
 							</div>
@@ -97,27 +102,28 @@
 						
 		
 		<!-- ACCOUNT-CREATE -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Sign Up Today!</h1>
-					<div>
+		<section id="Contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Sign Up Today!</h1>
+					<div class="Sign Up Today!">
 						<h2><span>Your source for high quality imagery</span>
-							<br />
+							<br/>
 						</h2>
-						<p>
+						<p class="rsvp-text">
 							Please provide us with your basic information to get started.
 						</p>
-						<div>
+						<div class="form-rsvp">
 							<form action="" method="post">
-								<input class="account create" type="text" value="First Name">
-								<input class="account create" type="text" value="Last Name">
-								<input class="account create" type="text" value="Email address">
-								<input class="account create" type="text" value="Image Preferences">
-								<div class="form spacer">
+								<input class="account create" type="text" placeholder="First Name">
+								<input class="account create" type="text" placeholder="Last Name">
+								<input class="account create" type="text" placeholder="Email address">
+								<input class="account create" type="text" placeholder="Image Preferences">
+								<div class="form spacer"><br>
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<br>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							</form>
@@ -125,11 +131,11 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section><br>
 		<!--END ACCOUNT-CREATE ==>
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.pictorama.rama &nbsp;|&nbsp; &copy; 2019
 		</div>
 		<!-- END FOOTER -->	
